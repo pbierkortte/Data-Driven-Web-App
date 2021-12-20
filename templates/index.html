@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    <style>
+       h1 {
+           font-family: "ProximaNova Regular","Helvetica Neue",Helvetica,Arial,sans-serif;
+           color: #252628;
+       }
+       h2 {
+           font-family: "ProximaNova Regular","Helvetica Neue",Helvetica,Arial,sans-serif;
+           color: #36383b;
+       }
+       a:link {
+           font-family: "ProximaNova Regular","Helvetica Neue",Helvetica,Arial,sans-serif;
+           color: #13285e;
+       }
+       a:visited {
+           font-family: "ProximaNova Regular","Helvetica Neue",Helvetica,Arial,sans-serif;
+           color: #ff6116;
+      }
+   </style>
+    <title>Bitly Coding Challenge</title>
+</head>
+<body>
+    <h1>Hello <font color="#ff6116">Bitly</font></h1>
+    <h2>Welcome to my App</h2>
+    <a href="{{ url_for('get_avg_daily_clicks_by_country') }}">API Endpoint</a>
+</p>
+</body>
+</html>
