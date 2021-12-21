@@ -25,7 +25,7 @@ class Crawler:
     def __del__(self):
         self.session.close()
 
-    def get_data(self, url, params:dict) -> dict:
+    def get_data(self, url, params: dict) -> dict:
         response = self.session.get(url=url, params=params).json()
         return response
 
@@ -45,6 +45,7 @@ class Crawler:
                 for link in response["links"]:
                     yield link["id"]
                     url = response["pagination"]["next"]
+
         return list(get_links_gen())
 
     def get_link_metrics_by_country(self, link_id) -> list:
@@ -58,7 +59,6 @@ class Crawler:
                 "clicks": country["clicks"]
             })
         return metrics
-
 
     def avg_daily_clicks_by_country(self) -> list:
         g = self.get_user_default_group()

@@ -16,25 +16,24 @@ class TestCrawler(unittest.TestCase):
 
     def test_server_returns_success(self):
         status_code = self.session.get(url=f"{self.host}").status_code
-        self.assertEqual(status_code,200)
-
+        self.assertEqual(status_code, 200)
 
     def test_avg_daily_clicks_by_country_returns_success(self):
         status_code = self.session.get(url=f"{self.host}api/v1/avgDailyClicksByCountry").status_code
-        self.assertEqual(status_code,200)
+        self.assertEqual(status_code, 200)
 
     def test_server_page_not_found_error(self):
-        expected_content= b"This page does not exist"
+        expected_content = b"This page does not exist"
         nonexistent_url = f"{self.host}/pepper-night-census-polar-hero-chalk"
         response = self.session.get(url=nonexistent_url)
         status_code = response.status_code
         content = response.content
-        self.assertEqual(status_code,404)
-        self.assertEqual(content,expected_content)
+        self.assertEqual(status_code, 404)
+        self.assertEqual(content, expected_content)
 
     def test_server_bitly_api_token_set(self):
         bitly_api_token = os.getenv("BITLY_API_TOKEN")
-        self.assertNotEqual(bitly_api_token,"")
+        self.assertNotEqual(bitly_api_token, "")
 
     def tearDown(self):
         self.session.close()
