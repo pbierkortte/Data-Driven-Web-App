@@ -1,21 +1,26 @@
 import os
-from requests import Session
+from requests import Session, request
 from requests.structures import CaseInsensitiveDict
 import pandas as pd
 
+
+class BitlyApiTokenNotSetError(Exception):
+    def __init__(self):
+        self.message = "Environment variable BITLY_API_TOKEN is not set"
+        super().__init__(self.message)
+
+
 class Crawler:
     def __init__(self):
-
-        if not os.getenv("BITLY_API_TOKEN"):
-            raise EnvironmentError("Environment variable 'BITLY_API_TOKEN' is not set")
-
-        bitly_api_token = os.getenv("BITLY_API_TOKEN")
-
-        headers = CaseInsensitiveDict()
-        headers["Accept"] = "application/json"
-        headers["Authorization"] = f"Bearer {bitly_api_token}"
         self.session = Session()
-        self.session.headers = headers
+        try:
+            bitly_api_token = os.environ["BITLY_API_TOKEN"]
+        except KeyError as e:
+            raise BitlyApiTokenNotSetError() from e
+        self.headers = CaseInsensitiveDict()
+        self.headers["Accept"] = "application/json"
+        self.headers["Authorization"] = f"Bearer {bitly_api_token}"
+        self.session.headers = self.headers
 
     def __del__(self):
         self.session.close()
