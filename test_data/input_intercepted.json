@@ -1,0 +1,2112 @@
+[
+    {
+        "request": {
+            "params": {},
+            "url": "https://api-ssl.bitly.com/v4/user"
+        },
+        "response": {
+            "created": "2006-05-04T03:02:01+0000",
+            "default_group_guid": "Oypuw1HPb3a",
+            "emails": [
+                {
+                    "email": "somebody@example.com",
+                    "is_primary": true,
+                    "is_verified": true
+                }
+            ],
+            "is_2fa_enabled": false,
+            "is_active": true,
+            "is_sso_user": false,
+            "login": "ks2q754od1ug",
+            "modified": "2006-05-04T03:02:01+0000",
+            "name": "ks2q754od1ug"
+        }
+    },
+    {
+        "request": {
+            "params": {
+                "size": 100
+            },
+            "url": "https://api-ssl.bitly.com/v4/groups/Oypuw1HPb3a/bitlinks"
+        },
+        "response": {
+            "links": [
+                {
+                    "archived": false,
+                    "client_id": "ece654beaf35f9c29f610ffd4fb128702b4bad15",
+                    "created_at": "2006-05-04T03:02:01+0000",
+                    "created_by": "ks2q754od1ug",
+                    "custom_bitlinks": [],
+                    "deeplinks": [],
+                    "id": "bit.ly/ZZZaFXQ",
+                    "link": "https://bit.ly/ZZZaFXQ",
+                    "long_url": "https://google.com/search?q=60",
+                    "references": {
+                        "group": "https://api-ssl.bitly.com/v4/groups/Oypuw1HPb3a"
+                    },
+                    "tags": []
+                },
+                {
+                    "archived": false,
+                    "client_id": "ece654beaf35f9c29f610ffd4fb128702b4bad15",
+                    "created_at": "2006-05-04T03:02:01+0000",
+                    "created_by": "ks2q754od1ug",
+                    "custom_bitlinks": [],
+                    "deeplinks": [],
+                    "id": "bit.ly/ZZZjoal",
+                    "link": "https://bit.ly/ZZZjoal",
+                    "long_url": "https://google.com/search?q=59",
+                    "references": {
+                        "group": "https://api-ssl.bitly.com/v4/groups/Oypuw1HPb3a"
+                    },
+                    "tags": []
+                },
+                {
+                    "archived": false,
+                    "client_id": "ece654beaf35f9c29f610ffd4fb128702b4bad15",
+                    "created_at": "2006-05-04T03:02:01+0000",
+                    "created_by": "ks2q754od1ug",
+                    "custom_bitlinks": [],
+                    "deeplinks": [],
+                    "id": "bit.ly/ZZZ0aru",
+                    "link": "https://bit.ly/ZZZ0aru",
+                    "long_url": "https://google.com/search?q=58",
+                    "references": {
+                        "group": "https://api-ssl.bitly.com/v4/groups/Oypuw1HPb3a"
+                    },
+                    "tags": []
+                },
+                {
+                    "archived": false,
+                    "client_id": "ece654beaf35f9c29f610ffd4fb128702b4bad15",
+                    "created_at": "2006-05-04T03:02:01+0000",
+                    "created_by": "ks2q754od1ug",
+                    "custom_bitlinks": [],
+                    "deeplinks": [],
+                    "id": "bit.ly/ZZZExbz",
+                    "link": "https://bit.ly/ZZZExbz",
+                    "long_url": "https://google.com/search?q=57",
+                    "references": {
+                        "group": "https://api-ssl.bitly.com/v4/groups/Oypuw1HPb3a"
+                    },
+                    "tags": []
+                },
+                {
+                    "archived": false,
+                    "client_id": "ece654beaf35f9c29f610ffd4fb128702b4bad15",
+                    "created_at": "2006-05-04T03:02:01+0000",
+                    "created_by": "ks2q754od1ug",
+                    "custom_bitlinks": [],
+                    "deeplinks": [],
+                    "id": "bit.ly/ZZZgv0g",
+                    "link": "https://bit.ly/ZZZgv0g",
+                    "long_url": "https://google.com/search?q=56",
+                    "references": {
+                        "group": "https://api-ssl.bitly.com/v4/groups/Oypuw1HPb3a"
+                    },
+                    "tags": []
+                },
+                {
+                    "archived": false,
+                    "client_id": "ece654beaf35f9c29f610ffd4fb128702b4bad15",
+                    "created_at": "2006-05-04T03:02:01+0000",
+                    "created_by": "ks2q754od1ug",
+                    "custom_bitlinks": [],
+                    "deeplinks": [],
+                    "id": "bit.ly/ZZZnOJJ",
+                    "link": "https://bit.ly/ZZZnOJJ",
+                    "long_url": "https://google.com/search?q=55",
+                    "references": {
+                        "group": "https://api-ssl.bitly.com/v4/groups/Oypuw1HPb3a"
+                    },
+                    "tags": []
+                },
+                {
+                    "archived": false,
+                    "client_id": "ece654beaf35f9c29f610ffd4fb128702b4bad15",
+                    "created_at": "2006-05-04T03:02:01+0000",
+                    "created_by": "ks2q754od1ug",
+                    "custom_bitlinks": [],
+                    "deeplinks": [],
+                    "id": "bit.ly/ZZZNMm6",
+                    "link": "https://bit.ly/ZZZNMm6",
+                    "long_url": "https://google.com/search?q=54",
+                    "references": {
+                        "group": "https://api-ssl.bitly.com/v4/groups/Oypuw1HPb3a"
+                    },
+                    "tags": []
+                },
+                {
+                    "archived": false,
+                    "client_id": "ece654beaf35f9c29f610ffd4fb128702b4bad15",
+                    "created_at": "2006-05-04T03:02:01+0000",
+                    "created_by": "ks2q754od1ug",
+                    "custom_bitlinks": [],
+                    "deeplinks": [],
+                    "id": "bit.ly/ZZZjk1v",
+                    "link": "https://bit.ly/ZZZjk1v",
+                    "long_url": "https://google.com/search?q=53",
+                    "references": {
+                        "group": "https://api-ssl.bitly.com/v4/groups/Oypuw1HPb3a"
+                    },
+                    "tags": []
+                },
+                {
+                    "archived": false,
+                    "client_id": "ece654beaf35f9c29f610ffd4fb128702b4bad15",
+                    "created_at": "2006-05-04T03:02:01+0000",
+                    "created_by": "ks2q754od1ug",
+                    "custom_bitlinks": [],
+                    "deeplinks": [],
+                    "id": "bit.ly/ZZZN4v9",
+                    "link": "https://bit.ly/ZZZN4v9",
+                    "long_url": "https://google.com/search?q=52",
+                    "references": {
+                        "group": "https://api-ssl.bitly.com/v4/groups/Oypuw1HPb3a"
+                    },
+                    "tags": []
+                },
+                {
+                    "archived": false,
+                    "client_id": "ece654beaf35f9c29f610ffd4fb128702b4bad15",
+                    "created_at": "2006-05-04T03:02:01+0000",
+                    "created_by": "ks2q754od1ug",
+                    "custom_bitlinks": [],
+                    "deeplinks": [],
+                    "id": "bit.ly/ZZZ2kTo",
+                    "link": "https://bit.ly/ZZZ2kTo",
+                    "long_url": "https://google.com/search?q=51",
+                    "references": {
+                        "group": "https://api-ssl.bitly.com/v4/groups/Oypuw1HPb3a"
+                    },
+                    "tags": []
+                },
+                {
+                    "archived": false,
+                    "client_id": "ece654beaf35f9c29f610ffd4fb128702b4bad15",
+                    "created_at": "2006-05-04T03:02:01+0000",
+                    "created_by": "ks2q754od1ug",
+                    "custom_bitlinks": [],
+                    "deeplinks": [],
+                    "id": "bit.ly/ZZZbMZY",
+                    "link": "https://bit.ly/ZZZbMZY",
+                    "long_url": "https://google.com/search?q=50",
+                    "references": {
+                        "group": "https://api-ssl.bitly.com/v4/groups/Oypuw1HPb3a"
+                    },
+                    "tags": []
+                },
+                {
+                    "archived": false,
+                    "client_id": "ece654beaf35f9c29f610ffd4fb128702b4bad15",
+                    "created_at": "2006-05-04T03:02:01+0000",
+                    "created_by": "ks2q754od1ug",
+                    "custom_bitlinks": [],
+                    "deeplinks": [],
+                    "id": "bit.ly/ZZZ008g",
+                    "link": "https://bit.ly/ZZZ008g",
+                    "long_url": "https://google.com/search?q=49",
+                    "references": {
+                        "group": "https://api-ssl.bitly.com/v4/groups/Oypuw1HPb3a"
+                    },
+                    "tags": []
+                },
+                {
+                    "archived": false,
+                    "client_id": "ece654beaf35f9c29f610ffd4fb128702b4bad15",
+                    "created_at": "2006-05-04T03:02:01+0000",
+                    "created_by": "ks2q754od1ug",
+                    "custom_bitlinks": [],
+                    "deeplinks": [],
+                    "id": "bit.ly/ZZZ7uje",
+                    "link": "https://bit.ly/ZZZ7uje",
+                    "long_url": "https://google.com/search?q=48",
+                    "references": {
+                        "group": "https://api-ssl.bitly.com/v4/groups/Oypuw1HPb3a"
+                    },
+                    "tags": []
+                },
+                {
+                    "archived": false,
+                    "client_id": "ece654beaf35f9c29f610ffd4fb128702b4bad15",
+                    "created_at": "2006-05-04T03:02:01+0000",
+                    "created_by": "ks2q754od1ug",
+                    "custom_bitlinks": [],
+                    "deeplinks": [],
+                    "id": "bit.ly/ZZZUJcu",
+                    "link": "https://bit.ly/ZZZUJcu",
+                    "long_url": "https://google.com/search?q=47",
+                    "references": {
+                        "group": "https://api-ssl.bitly.com/v4/groups/Oypuw1HPb3a"
+                    },
+                    "tags": []
+                },
+                {
+                    "archived": false,
+                    "client_id": "ece654beaf35f9c29f610ffd4fb128702b4bad15",
+                    "created_at": "2006-05-04T03:02:01+0000",
+                    "created_by": "ks2q754od1ug",
+                    "custom_bitlinks": [],
+                    "deeplinks": [],
+                    "id": "bit.ly/ZZZ01fs",
+                    "link": "https://bit.ly/ZZZ01fs",
+                    "long_url": "https://google.com/search?q=46",
+                    "references": {
+                        "group": "https://api-ssl.bitly.com/v4/groups/Oypuw1HPb3a"
+                    },
+                    "tags": []
+                },
+                {
+                    "archived": false,
+                    "client_id": "ece654beaf35f9c29f610ffd4fb128702b4bad15",
+                    "created_at": "2006-05-04T03:02:01+0000",
+                    "created_by": "ks2q754od1ug",
+                    "custom_bitlinks": [],
+                    "deeplinks": [],
+                    "id": "bit.ly/ZZZSsQl",
+                    "link": "https://bit.ly/ZZZSsQl",
+                    "long_url": "https://google.com/search?q=45",
+                    "references": {
+                        "group": "https://api-ssl.bitly.com/v4/groups/Oypuw1HPb3a"
+                    },
+                    "tags": []
+                },
+                {
+                    "archived": false,
+                    "client_id": "ece654beaf35f9c29f610ffd4fb128702b4bad15",
+                    "created_at": "2006-05-04T03:02:01+0000",
+                    "created_by": "ks2q754od1ug",
+                    "custom_bitlinks": [],
+                    "deeplinks": [],
+                    "id": "bit.ly/ZZZPeSZ",
+                    "link": "https://bit.ly/ZZZPeSZ",
+                    "long_url": "https://google.com/search?q=44",
+                    "references": {
+                        "group": "https://api-ssl.bitly.com/v4/groups/Oypuw1HPb3a"
+                    },
+                    "tags": []
+                },
+                {
+                    "archived": false,
+                    "client_id": "ece654beaf35f9c29f610ffd4fb128702b4bad15",
+                    "created_at": "2006-05-04T03:02:01+0000",
+                    "created_by": "ks2q754od1ug",
+                    "custom_bitlinks": [],
+                    "deeplinks": [],
+                    "id": "bit.ly/ZZZBDN1",
+                    "link": "https://bit.ly/ZZZBDN1",
+                    "long_url": "https://google.com/search?q=43",
+                    "references": {
+                        "group": "https://api-ssl.bitly.com/v4/groups/Oypuw1HPb3a"
+                    },
+                    "tags": []
+                },
+                {
+                    "archived": false,
+                    "client_id": "ece654beaf35f9c29f610ffd4fb128702b4bad15",
+                    "created_at": "2006-05-04T03:02:01+0000",
+                    "created_by": "ks2q754od1ug",
+                    "custom_bitlinks": [],
+                    "deeplinks": [],
+                    "id": "bit.ly/ZZZgUSZ",
+                    "link": "https://bit.ly/ZZZgUSZ",
+                    "long_url": "https://google.com/search?q=42",
+                    "references": {
+                        "group": "https://api-ssl.bitly.com/v4/groups/Oypuw1HPb3a"
+                    },
+                    "tags": []
+                },
+                {
+                    "archived": false,
+                    "client_id": "ece654beaf35f9c29f610ffd4fb128702b4bad15",
+                    "created_at": "2006-05-04T03:02:01+0000",
+                    "created_by": "ks2q754od1ug",
+                    "custom_bitlinks": [],
+                    "deeplinks": [],
+                    "id": "bit.ly/ZZZQSRo",
+                    "link": "https://bit.ly/ZZZQSRo",
+                    "long_url": "https://google.com/search?q=41",
+                    "references": {
+                        "group": "https://api-ssl.bitly.com/v4/groups/Oypuw1HPb3a"
+                    },
+                    "tags": []
+                },
+                {
+                    "archived": false,
+                    "client_id": "ece654beaf35f9c29f610ffd4fb128702b4bad15",
+                    "created_at": "2006-05-04T03:02:01+0000",
+                    "created_by": "ks2q754od1ug",
+                    "custom_bitlinks": [],
+                    "deeplinks": [],
+                    "id": "bit.ly/ZZZXR2z",
+                    "link": "https://bit.ly/ZZZXR2z",
+                    "long_url": "https://google.com/search?q=",
+                    "references": {
+                        "group": "https://api-ssl.bitly.com/v4/groups/Oypuw1HPb3a"
+                    },
+                    "tags": []
+                },
+                {
+                    "archived": false,
+                    "client_id": "ece654beaf35f9c29f610ffd4fb128702b4bad15",
+                    "created_at": "2006-05-04T03:02:01+0000",
+                    "created_by": "ks2q754od1ug",
+                    "custom_bitlinks": [],
+                    "deeplinks": [],
+                    "id": "bit.ly/ZZZBL5P",
+                    "link": "https://bit.ly/ZZZBL5P",
+                    "long_url": "https://google.com/search?q=40",
+                    "references": {
+                        "group": "https://api-ssl.bitly.com/v4/groups/Oypuw1HPb3a"
+                    },
+                    "tags": []
+                },
+                {
+                    "archived": false,
+                    "client_id": "ece654beaf35f9c29f610ffd4fb128702b4bad15",
+                    "created_at": "2006-05-04T03:02:01+0000",
+                    "created_by": "ks2q754od1ug",
+                    "custom_bitlinks": [],
+                    "deeplinks": [],
+                    "id": "bit.ly/ZZZDHqF",
+                    "link": "https://bit.ly/ZZZDHqF",
+                    "long_url": "https://google.com/search?q=39",
+                    "references": {
+                        "group": "https://api-ssl.bitly.com/v4/groups/Oypuw1HPb3a"
+                    },
+                    "tags": []
+                },
+                {
+                    "archived": false,
+                    "client_id": "ece654beaf35f9c29f610ffd4fb128702b4bad15",
+                    "created_at": "2006-05-04T03:02:01+0000",
+                    "created_by": "ks2q754od1ug",
+                    "custom_bitlinks": [],
+                    "deeplinks": [],
+                    "id": "bit.ly/ZZZe12G",
+                    "link": "https://bit.ly/ZZZe12G",
+                    "long_url": "https://google.com/search?q=38",
+                    "references": {
+                        "group": "https://api-ssl.bitly.com/v4/groups/Oypuw1HPb3a"
+                    },
+                    "tags": []
+                },
+                {
+                    "archived": false,
+                    "client_id": "ece654beaf35f9c29f610ffd4fb128702b4bad15",
+                    "created_at": "2006-05-04T03:02:01+0000",
+                    "created_by": "ks2q754od1ug",
+                    "custom_bitlinks": [],
+                    "deeplinks": [],
+                    "id": "bit.ly/ZZZGsMU",
+                    "link": "https://bit.ly/ZZZGsMU",
+                    "long_url": "https://google.com/search?q=37",
+                    "references": {
+                        "group": "https://api-ssl.bitly.com/v4/groups/Oypuw1HPb3a"
+                    },
+                    "tags": []
+                },
+                {
+                    "archived": false,
+                    "client_id": "ece654beaf35f9c29f610ffd4fb128702b4bad15",
+                    "created_at": "2006-05-04T03:02:01+0000",
+                    "created_by": "ks2q754od1ug",
+                    "custom_bitlinks": [],
+                    "deeplinks": [],
+                    "id": "bit.ly/ZZZBGo5",
+                    "link": "https://bit.ly/ZZZBGo5",
+                    "long_url": "https://google.com/search?q=36",
+                    "references": {
+                        "group": "https://api-ssl.bitly.com/v4/groups/Oypuw1HPb3a"
+                    },
+                    "tags": []
+                },
+                {
+                    "archived": false,
+                    "client_id": "ece654beaf35f9c29f610ffd4fb128702b4bad15",
+                    "created_at": "2006-05-04T03:02:01+0000",
+                    "created_by": "ks2q754od1ug",
+                    "custom_bitlinks": [],
+                    "deeplinks": [],
+                    "id": "bit.ly/ZZZZPAF",
+                    "link": "https://bit.ly/ZZZZPAF",
+                    "long_url": "https://google.com/search?q=35",
+                    "references": {
+                        "group": "https://api-ssl.bitly.com/v4/groups/Oypuw1HPb3a"
+                    },
+                    "tags": []
+                },
+                {
+                    "archived": false,
+                    "client_id": "ece654beaf35f9c29f610ffd4fb128702b4bad15",
+                    "created_at": "2006-05-04T03:02:01+0000",
+                    "created_by": "ks2q754od1ug",
+                    "custom_bitlinks": [],
+                    "deeplinks": [],
+                    "id": "bit.ly/ZZZOOuV",
+                    "link": "https://bit.ly/ZZZOOuV",
+                    "long_url": "https://google.com/search?q=34",
+                    "references": {
+                        "group": "https://api-ssl.bitly.com/v4/groups/Oypuw1HPb3a"
+                    },
+                    "tags": []
+                },
+                {
+                    "archived": false,
+                    "client_id": "ece654beaf35f9c29f610ffd4fb128702b4bad15",
+                    "created_at": "2006-05-04T03:02:01+0000",
+                    "created_by": "ks2q754od1ug",
+                    "custom_bitlinks": [],
+                    "deeplinks": [],
+                    "id": "bit.ly/ZZZL9AB",
+                    "link": "https://bit.ly/ZZZL9AB",
+                    "long_url": "https://google.com/search?q=33",
+                    "references": {
+                        "group": "https://api-ssl.bitly.com/v4/groups/Oypuw1HPb3a"
+                    },
+                    "tags": []
+                },
+                {
+                    "archived": false,
+                    "client_id": "ece654beaf35f9c29f610ffd4fb128702b4bad15",
+                    "created_at": "2006-05-04T03:02:01+0000",
+                    "created_by": "ks2q754od1ug",
+                    "custom_bitlinks": [],
+                    "deeplinks": [],
+                    "id": "bit.ly/ZZZOhMO",
+                    "link": "https://bit.ly/ZZZOhMO",
+                    "long_url": "https://google.com/search?q=32",
+                    "references": {
+                        "group": "https://api-ssl.bitly.com/v4/groups/Oypuw1HPb3a"
+                    },
+                    "tags": []
+                },
+                {
+                    "archived": false,
+                    "client_id": "ece654beaf35f9c29f610ffd4fb128702b4bad15",
+                    "created_at": "2006-05-04T03:02:01+0000",
+                    "created_by": "ks2q754od1ug",
+                    "custom_bitlinks": [],
+                    "deeplinks": [],
+                    "id": "bit.ly/ZZZQl7E",
+                    "link": "https://bit.ly/ZZZQl7E",
+                    "long_url": "https://google.com/search?q=31",
+                    "references": {
+                        "group": "https://api-ssl.bitly.com/v4/groups/Oypuw1HPb3a"
+                    },
+                    "tags": []
+                },
+                {
+                    "archived": false,
+                    "client_id": "ece654beaf35f9c29f610ffd4fb128702b4bad15",
+                    "created_at": "2006-05-04T03:02:01+0000",
+                    "created_by": "ks2q754od1ug",
+                    "custom_bitlinks": [],
+                    "deeplinks": [],
+                    "id": "bit.ly/ZZZVjmp",
+                    "link": "https://bit.ly/ZZZVjmp",
+                    "long_url": "https://google.com/search?q=30",
+                    "references": {
+                        "group": "https://api-ssl.bitly.com/v4/groups/Oypuw1HPb3a"
+                    },
+                    "tags": []
+                },
+                {
+                    "archived": false,
+                    "client_id": "ece654beaf35f9c29f610ffd4fb128702b4bad15",
+                    "created_at": "2006-05-04T03:02:01+0000",
+                    "created_by": "ks2q754od1ug",
+                    "custom_bitlinks": [],
+                    "deeplinks": [],
+                    "id": "bit.ly/ZZZV2tt",
+                    "link": "https://bit.ly/ZZZV2tt",
+                    "long_url": "https://google.com/search?q=29",
+                    "references": {
+                        "group": "https://api-ssl.bitly.com/v4/groups/Oypuw1HPb3a"
+                    },
+                    "tags": []
+                },
+                {
+                    "archived": false,
+                    "client_id": "ece654beaf35f9c29f610ffd4fb128702b4bad15",
+                    "created_at": "2006-05-04T03:02:01+0000",
+                    "created_by": "ks2q754od1ug",
+                    "custom_bitlinks": [],
+                    "deeplinks": [],
+                    "id": "bit.ly/ZZZ9l0J",
+                    "link": "https://bit.ly/ZZZ9l0J",
+                    "long_url": "https://google.com/search?q=28",
+                    "references": {
+                        "group": "https://api-ssl.bitly.com/v4/groups/Oypuw1HPb3a"
+                    },
+                    "tags": []
+                },
+                {
+                    "archived": false,
+                    "client_id": "ece654beaf35f9c29f610ffd4fb128702b4bad15",
+                    "created_at": "2006-05-04T03:02:01+0000",
+                    "created_by": "ks2q754od1ug",
+                    "custom_bitlinks": [],
+                    "deeplinks": [],
+                    "id": "bit.ly/ZZZDhhq",
+                    "link": "https://bit.ly/ZZZDhhq",
+                    "long_url": "https://google.com/search?q=27",
+                    "references": {
+                        "group": "https://api-ssl.bitly.com/v4/groups/Oypuw1HPb3a"
+                    },
+                    "tags": []
+                },
+                {
+                    "archived": false,
+                    "client_id": "ece654beaf35f9c29f610ffd4fb128702b4bad15",
+                    "created_at": "2006-05-04T03:02:01+0000",
+                    "created_by": "ks2q754od1ug",
+                    "custom_bitlinks": [],
+                    "deeplinks": [],
+                    "id": "bit.ly/ZZZsEU4",
+                    "link": "https://bit.ly/ZZZsEU4",
+                    "long_url": "https://google.com/search?q=26",
+                    "references": {
+                        "group": "https://api-ssl.bitly.com/v4/groups/Oypuw1HPb3a"
+                    },
+                    "tags": []
+                },
+                {
+                    "archived": false,
+                    "client_id": "ece654beaf35f9c29f610ffd4fb128702b4bad15",
+                    "created_at": "2006-05-04T03:02:01+0000",
+                    "created_by": "ks2q754od1ug",
+                    "custom_bitlinks": [],
+                    "deeplinks": [],
+                    "id": "bit.ly/ZZZ1mFi",
+                    "link": "https://bit.ly/ZZZ1mFi",
+                    "long_url": "https://google.com/search?q=25",
+                    "references": {
+                        "group": "https://api-ssl.bitly.com/v4/groups/Oypuw1HPb3a"
+                    },
+                    "tags": []
+                },
+                {
+                    "archived": false,
+                    "client_id": "ece654beaf35f9c29f610ffd4fb128702b4bad15",
+                    "created_at": "2006-05-04T03:02:01+0000",
+                    "created_by": "ks2q754od1ug",
+                    "custom_bitlinks": [],
+                    "deeplinks": [],
+                    "id": "bit.ly/ZZZtvyy",
+                    "link": "https://bit.ly/ZZZtvyy",
+                    "long_url": "https://google.com/search?q=24",
+                    "references": {
+                        "group": "https://api-ssl.bitly.com/v4/groups/Oypuw1HPb3a"
+                    },
+                    "tags": []
+                },
+                {
+                    "archived": false,
+                    "client_id": "ece654beaf35f9c29f610ffd4fb128702b4bad15",
+                    "created_at": "2006-05-04T03:02:01+0000",
+                    "created_by": "ks2q754od1ug",
+                    "custom_bitlinks": [],
+                    "deeplinks": [],
+                    "id": "bit.ly/ZZZKpdX",
+                    "link": "https://bit.ly/ZZZKpdX",
+                    "long_url": "https://google.com/search?q=23",
+                    "references": {
+                        "group": "https://api-ssl.bitly.com/v4/groups/Oypuw1HPb3a"
+                    },
+                    "tags": [],
+                    "title": "https://google.com/search?q=23"
+                },
+                {
+                    "archived": false,
+                    "client_id": "ece654beaf35f9c29f610ffd4fb128702b4bad15",
+                    "created_at": "2006-05-04T03:02:01+0000",
+                    "created_by": "ks2q754od1ug",
+                    "custom_bitlinks": [],
+                    "deeplinks": [],
+                    "id": "bit.ly/ZZZ9UvO",
+                    "link": "https://bit.ly/ZZZ9UvO",
+                    "long_url": "https://google.com/search?q=22",
+                    "references": {
+                        "group": "https://api-ssl.bitly.com/v4/groups/Oypuw1HPb3a"
+                    },
+                    "tags": []
+                },
+                {
+                    "archived": false,
+                    "client_id": "ece654beaf35f9c29f610ffd4fb128702b4bad15",
+                    "created_at": "2006-05-04T03:02:01+0000",
+                    "created_by": "ks2q754od1ug",
+                    "custom_bitlinks": [],
+                    "deeplinks": [],
+                    "id": "bit.ly/ZZZa1cS",
+                    "link": "https://bit.ly/ZZZa1cS",
+                    "long_url": "https://google.com/search?q=21",
+                    "references": {
+                        "group": "https://api-ssl.bitly.com/v4/groups/Oypuw1HPb3a"
+                    },
+                    "tags": []
+                },
+                {
+                    "archived": false,
+                    "client_id": "ece654beaf35f9c29f610ffd4fb128702b4bad15",
+                    "created_at": "2006-05-04T03:02:01+0000",
+                    "created_by": "ks2q754od1ug",
+                    "custom_bitlinks": [],
+                    "deeplinks": [],
+                    "id": "bit.ly/ZZZoEO0",
+                    "link": "https://bit.ly/ZZZoEO0",
+                    "long_url": "https://google.com/search?q=20",
+                    "references": {
+                        "group": "https://api-ssl.bitly.com/v4/groups/Oypuw1HPb3a"
+                    },
+                    "tags": []
+                },
+                {
+                    "archived": false,
+                    "client_id": "ece654beaf35f9c29f610ffd4fb128702b4bad15",
+                    "created_at": "2006-05-04T03:02:01+0000",
+                    "created_by": "ks2q754od1ug",
+                    "custom_bitlinks": [],
+                    "deeplinks": [],
+                    "id": "bit.ly/ZZZ2qtw",
+                    "link": "https://bit.ly/ZZZ2qtw",
+                    "long_url": "https://google.com/search?q=19",
+                    "references": {
+                        "group": "https://api-ssl.bitly.com/v4/groups/Oypuw1HPb3a"
+                    },
+                    "tags": []
+                },
+                {
+                    "archived": false,
+                    "client_id": "ece654beaf35f9c29f610ffd4fb128702b4bad15",
+                    "created_at": "2006-05-04T03:02:01+0000",
+                    "created_by": "ks2q754od1ug",
+                    "custom_bitlinks": [],
+                    "deeplinks": [],
+                    "id": "bit.ly/ZZZ4WzF",
+                    "link": "https://bit.ly/ZZZ4WzF",
+                    "long_url": "https://google.com/search?q=18",
+                    "references": {
+                        "group": "https://api-ssl.bitly.com/v4/groups/Oypuw1HPb3a"
+                    },
+                    "tags": []
+                },
+                {
+                    "archived": false,
+                    "client_id": "ece654beaf35f9c29f610ffd4fb128702b4bad15",
+                    "created_at": "2006-05-04T03:02:01+0000",
+                    "created_by": "ks2q754od1ug",
+                    "custom_bitlinks": [],
+                    "deeplinks": [],
+                    "id": "bit.ly/ZZZAz2M",
+                    "link": "https://bit.ly/ZZZAz2M",
+                    "long_url": "https://google.com/search?q=17",
+                    "references": {
+                        "group": "https://api-ssl.bitly.com/v4/groups/Oypuw1HPb3a"
+                    },
+                    "tags": []
+                },
+                {
+                    "archived": false,
+                    "client_id": "ece654beaf35f9c29f610ffd4fb128702b4bad15",
+                    "created_at": "2006-05-04T03:02:01+0000",
+                    "created_by": "ks2q754od1ug",
+                    "custom_bitlinks": [],
+                    "deeplinks": [],
+                    "id": "bit.ly/ZZZ60kV",
+                    "link": "https://bit.ly/ZZZ60kV",
+                    "long_url": "https://google.com/search?q=16",
+                    "references": {
+                        "group": "https://api-ssl.bitly.com/v4/groups/Oypuw1HPb3a"
+                    },
+                    "tags": []
+                },
+                {
+                    "archived": false,
+                    "client_id": "ece654beaf35f9c29f610ffd4fb128702b4bad15",
+                    "created_at": "2006-05-04T03:02:01+0000",
+                    "created_by": "ks2q754od1ug",
+                    "custom_bitlinks": [],
+                    "deeplinks": [],
+                    "id": "bit.ly/ZZZCB3m",
+                    "link": "https://bit.ly/ZZZCB3m",
+                    "long_url": "https://google.com/search?q=15",
+                    "references": {
+                        "group": "https://api-ssl.bitly.com/v4/groups/Oypuw1HPb3a"
+                    },
+                    "tags": []
+                },
+                {
+                    "archived": false,
+                    "client_id": "ece654beaf35f9c29f610ffd4fb128702b4bad15",
+                    "created_at": "2006-05-04T03:02:01+0000",
+                    "created_by": "ks2q754od1ug",
+                    "custom_bitlinks": [],
+                    "deeplinks": [],
+                    "id": "bit.ly/ZZZDO32",
+                    "link": "https://bit.ly/ZZZDO32",
+                    "long_url": "https://google.com/search?q=14",
+                    "references": {
+                        "group": "https://api-ssl.bitly.com/v4/groups/Oypuw1HPb3a"
+                    },
+                    "tags": []
+                },
+                {
+                    "archived": false,
+                    "client_id": "ece654beaf35f9c29f610ffd4fb128702b4bad15",
+                    "created_at": "2006-05-04T03:02:01+0000",
+                    "created_by": "ks2q754od1ug",
+                    "custom_bitlinks": [],
+                    "deeplinks": [],
+                    "id": "bit.ly/ZZZ46mY",
+                    "link": "https://bit.ly/ZZZ46mY",
+                    "long_url": "https://google.com/search?q=13",
+                    "references": {
+                        "group": "https://api-ssl.bitly.com/v4/groups/Oypuw1HPb3a"
+                    },
+                    "tags": []
+                },
+                {
+                    "archived": false,
+                    "client_id": "ece654beaf35f9c29f610ffd4fb128702b4bad15",
+                    "created_at": "2006-05-04T03:02:01+0000",
+                    "created_by": "ks2q754od1ug",
+                    "custom_bitlinks": [],
+                    "deeplinks": [],
+                    "id": "bit.ly/ZZZzixH",
+                    "link": "https://bit.ly/ZZZzixH",
+                    "long_url": "https://google.com/search?q=12",
+                    "references": {
+                        "group": "https://api-ssl.bitly.com/v4/groups/Oypuw1HPb3a"
+                    },
+                    "tags": []
+                },
+                {
+                    "archived": false,
+                    "client_id": "ece654beaf35f9c29f610ffd4fb128702b4bad15",
+                    "created_at": "2006-05-04T03:02:01+0000",
+                    "created_by": "ks2q754od1ug",
+                    "custom_bitlinks": [],
+                    "deeplinks": [],
+                    "id": "bit.ly/ZZZNsEn",
+                    "link": "https://bit.ly/ZZZNsEn",
+                    "long_url": "https://google.com/search?q=11",
+                    "references": {
+                        "group": "https://api-ssl.bitly.com/v4/groups/Oypuw1HPb3a"
+                    },
+                    "tags": []
+                },
+                {
+                    "archived": false,
+                    "client_id": "ece654beaf35f9c29f610ffd4fb128702b4bad15",
+                    "created_at": "2006-05-04T03:02:01+0000",
+                    "created_by": "ks2q754od1ug",
+                    "custom_bitlinks": [],
+                    "deeplinks": [],
+                    "id": "bit.ly/ZZZ5MKB",
+                    "link": "https://bit.ly/ZZZ5MKB",
+                    "long_url": "https://www.google.com/search?q=10",
+                    "references": {
+                        "group": "https://api-ssl.bitly.com/v4/groups/Oypuw1HPb3a"
+                    },
+                    "tags": []
+                },
+                {
+                    "archived": false,
+                    "client_id": "ece654beaf35f9c29f610ffd4fb128702b4bad15",
+                    "created_at": "2006-05-04T03:02:01+0000",
+                    "created_by": "ks2q754od1ug",
+                    "custom_bitlinks": [],
+                    "deeplinks": [],
+                    "id": "bit.ly/ZZZdanm",
+                    "link": "https://bit.ly/ZZZdanm",
+                    "long_url": "https://www.google.com/search?q=9",
+                    "references": {
+                        "group": "https://api-ssl.bitly.com/v4/groups/Oypuw1HPb3a"
+                    },
+                    "tags": []
+                },
+                {
+                    "archived": false,
+                    "client_id": "ece654beaf35f9c29f610ffd4fb128702b4bad15",
+                    "created_at": "2006-05-04T03:02:01+0000",
+                    "created_by": "ks2q754od1ug",
+                    "custom_bitlinks": [],
+                    "deeplinks": [],
+                    "id": "bit.ly/ZZZU1e7",
+                    "link": "https://bit.ly/ZZZU1e7",
+                    "long_url": "https://www.google.com/search?q=8",
+                    "references": {
+                        "group": "https://api-ssl.bitly.com/v4/groups/Oypuw1HPb3a"
+                    },
+                    "tags": []
+                },
+                {
+                    "archived": false,
+                    "client_id": "ece654beaf35f9c29f610ffd4fb128702b4bad15",
+                    "created_at": "2006-05-04T03:02:01+0000",
+                    "created_by": "ks2q754od1ug",
+                    "custom_bitlinks": [],
+                    "deeplinks": [],
+                    "id": "bit.ly/ZZZ0eIB",
+                    "link": "https://bit.ly/ZZZ0eIB",
+                    "long_url": "https://www.google.com/search?q=7",
+                    "references": {
+                        "group": "https://api-ssl.bitly.com/v4/groups/Oypuw1HPb3a"
+                    },
+                    "tags": []
+                },
+                {
+                    "archived": false,
+                    "client_id": "ece654beaf35f9c29f610ffd4fb128702b4bad15",
+                    "created_at": "2006-05-04T03:02:01+0000",
+                    "created_by": "ks2q754od1ug",
+                    "custom_bitlinks": [],
+                    "deeplinks": [],
+                    "id": "bit.ly/ZZZVlia",
+                    "link": "https://bit.ly/ZZZVlia",
+                    "long_url": "https://www.google.com/search?q=6",
+                    "references": {
+                        "group": "https://api-ssl.bitly.com/v4/groups/Oypuw1HPb3a"
+                    },
+                    "tags": []
+                },
+                {
+                    "archived": false,
+                    "client_id": "ece654beaf35f9c29f610ffd4fb128702b4bad15",
+                    "created_at": "2006-05-04T03:02:01+0000",
+                    "created_by": "ks2q754od1ug",
+                    "custom_bitlinks": [],
+                    "deeplinks": [],
+                    "id": "bit.ly/ZZZTVDh",
+                    "link": "https://bit.ly/ZZZTVDh",
+                    "long_url": "https://www.google.com/search?q=5",
+                    "references": {
+                        "group": "https://api-ssl.bitly.com/v4/groups/Oypuw1HPb3a"
+                    },
+                    "tags": []
+                },
+                {
+                    "archived": false,
+                    "client_id": "ece654beaf35f9c29f610ffd4fb128702b4bad15",
+                    "created_at": "2006-05-04T03:02:01+0000",
+                    "created_by": "ks2q754od1ug",
+                    "custom_bitlinks": [],
+                    "deeplinks": [],
+                    "id": "bit.ly/ZZZy50k",
+                    "link": "https://bit.ly/ZZZy50k",
+                    "long_url": "https://www.google.com/search?q=4",
+                    "references": {
+                        "group": "https://api-ssl.bitly.com/v4/groups/Oypuw1HPb3a"
+                    },
+                    "tags": []
+                },
+                {
+                    "archived": false,
+                    "client_id": "ece654beaf35f9c29f610ffd4fb128702b4bad15",
+                    "created_at": "2006-05-04T03:02:01+0000",
+                    "created_by": "ks2q754od1ug",
+                    "custom_bitlinks": [],
+                    "deeplinks": [],
+                    "id": "bit.ly/ZZZ9MyS",
+                    "link": "https://bit.ly/ZZZ9MyS",
+                    "long_url": "https://www.google.com/search?q=3",
+                    "references": {
+                        "group": "https://api-ssl.bitly.com/v4/groups/Oypuw1HPb3a"
+                    },
+                    "tags": []
+                },
+                {
+                    "archived": false,
+                    "client_id": "ece654beaf35f9c29f610ffd4fb128702b4bad15",
+                    "created_at": "2006-05-04T03:02:01+0000",
+                    "created_by": "ks2q754od1ug",
+                    "custom_bitlinks": [],
+                    "deeplinks": [],
+                    "id": "bit.ly/ZZZFUGQ",
+                    "link": "https://bit.ly/ZZZFUGQ",
+                    "long_url": "https://www.google.com/search?q=2",
+                    "references": {
+                        "group": "https://api-ssl.bitly.com/v4/groups/Oypuw1HPb3a"
+                    },
+                    "tags": []
+                },
+                {
+                    "archived": false,
+                    "client_id": "ece654beaf35f9c29f610ffd4fb128702b4bad15",
+                    "created_at": "2006-05-04T03:02:01+0000",
+                    "created_by": "ks2q754od1ug",
+                    "custom_bitlinks": [],
+                    "deeplinks": [],
+                    "id": "bit.ly/ZZZGiEV",
+                    "link": "https://bit.ly/ZZZGiEV",
+                    "long_url": "https://www.google.com/search?q=1",
+                    "references": {
+                        "group": "https://api-ssl.bitly.com/v4/groups/Oypuw1HPb3a"
+                    },
+                    "tags": []
+                },
+                {
+                    "archived": false,
+                    "client_id": "ece654beaf35f9c29f610ffd4fb128702b4bad15",
+                    "created_at": "2006-05-04T03:02:01+0000",
+                    "created_by": "ks2q754od1ug",
+                    "custom_bitlinks": [],
+                    "deeplinks": [],
+                    "id": "bit.ly/ZZZsKE5",
+                    "link": "https://bit.ly/ZZZsKE5",
+                    "long_url": "http://google.com/",
+                    "references": {
+                        "group": "https://api-ssl.bitly.com/v4/groups/Oypuw1HPb3a"
+                    },
+                    "tags": [],
+                    "title": "Google"
+                },
+                {
+                    "archived": false,
+                    "client_id": "ece654beaf35f9c29f610ffd4fb128702b4bad15",
+                    "created_at": "2006-05-04T03:02:01+0000",
+                    "created_by": "ks2q754od1ug",
+                    "custom_bitlinks": [],
+                    "deeplinks": [],
+                    "id": "bit.ly/ZZZkwri",
+                    "link": "https://bit.ly/ZZZkwri",
+                    "long_url": "http://www.example.com/",
+                    "references": {
+                        "group": "https://api-ssl.bitly.com/v4/groups/Oypuw1HPb3a"
+                    },
+                    "tags": [],
+                    "title": "Example Domain"
+                }
+            ],
+            "pagination": {
+                "next": "",
+                "page": 1,
+                "prev": "",
+                "size": 100,
+                "total": 63
+            }
+        }
+    },
+    {
+        "request": {
+            "params": {
+                "unit": "day",
+                "units": 30
+            },
+            "url": "https://api-ssl.bitly.com/v4/bitlinks/bit.ly/ZZZaFXQ/countries"
+        },
+        "response": {
+            "facet": "countries",
+            "metrics": [
+                {
+                    "clicks": 1,
+                    "value": "US"
+                }
+            ],
+            "unit": "day",
+            "unit_reference": "2006-05-04T03:02:01+0000",
+            "units": 30
+        }
+    },
+    {
+        "request": {
+            "params": {
+                "unit": "day",
+                "units": 30
+            },
+            "url": "https://api-ssl.bitly.com/v4/bitlinks/bit.ly/ZZZjoal/countries"
+        },
+        "response": {
+            "facet": "countries",
+            "metrics": [],
+            "unit": "day",
+            "unit_reference": "2006-05-04T03:02:01+0000",
+            "units": 30
+        }
+    },
+    {
+        "request": {
+            "params": {
+                "unit": "day",
+                "units": 30
+            },
+            "url": "https://api-ssl.bitly.com/v4/bitlinks/bit.ly/ZZZ0aru/countries"
+        },
+        "response": {
+            "facet": "countries",
+            "metrics": [],
+            "unit": "day",
+            "unit_reference": "2006-05-04T03:02:01+0000",
+            "units": 30
+        }
+    },
+    {
+        "request": {
+            "params": {
+                "unit": "day",
+                "units": 30
+            },
+            "url": "https://api-ssl.bitly.com/v4/bitlinks/bit.ly/ZZZExbz/countries"
+        },
+        "response": {
+            "facet": "countries",
+            "metrics": [],
+            "unit": "day",
+            "unit_reference": "2006-05-04T03:02:01+0000",
+            "units": 30
+        }
+    },
+    {
+        "request": {
+            "params": {
+                "unit": "day",
+                "units": 30
+            },
+            "url": "https://api-ssl.bitly.com/v4/bitlinks/bit.ly/ZZZgv0g/countries"
+        },
+        "response": {
+            "facet": "countries",
+            "metrics": [],
+            "unit": "day",
+            "unit_reference": "2006-05-04T03:02:01+0000",
+            "units": 30
+        }
+    },
+    {
+        "request": {
+            "params": {
+                "unit": "day",
+                "units": 30
+            },
+            "url": "https://api-ssl.bitly.com/v4/bitlinks/bit.ly/ZZZnOJJ/countries"
+        },
+        "response": {
+            "facet": "countries",
+            "metrics": [],
+            "unit": "day",
+            "unit_reference": "2006-05-04T03:02:01+0000",
+            "units": 30
+        }
+    },
+    {
+        "request": {
+            "params": {
+                "unit": "day",
+                "units": 30
+            },
+            "url": "https://api-ssl.bitly.com/v4/bitlinks/bit.ly/ZZZNMm6/countries"
+        },
+        "response": {
+            "facet": "countries",
+            "metrics": [],
+            "unit": "day",
+            "unit_reference": "2006-05-04T03:02:01+0000",
+            "units": 30
+        }
+    },
+    {
+        "request": {
+            "params": {
+                "unit": "day",
+                "units": 30
+            },
+            "url": "https://api-ssl.bitly.com/v4/bitlinks/bit.ly/ZZZjk1v/countries"
+        },
+        "response": {
+            "facet": "countries",
+            "metrics": [],
+            "unit": "day",
+            "unit_reference": "2006-05-04T03:02:01+0000",
+            "units": 30
+        }
+    },
+    {
+        "request": {
+            "params": {
+                "unit": "day",
+                "units": 30
+            },
+            "url": "https://api-ssl.bitly.com/v4/bitlinks/bit.ly/ZZZN4v9/countries"
+        },
+        "response": {
+            "facet": "countries",
+            "metrics": [],
+            "unit": "day",
+            "unit_reference": "2006-05-04T03:02:01+0000",
+            "units": 30
+        }
+    },
+    {
+        "request": {
+            "params": {
+                "unit": "day",
+                "units": 30
+            },
+            "url": "https://api-ssl.bitly.com/v4/bitlinks/bit.ly/ZZZ2kTo/countries"
+        },
+        "response": {
+            "facet": "countries",
+            "metrics": [],
+            "unit": "day",
+            "unit_reference": "2006-05-04T03:02:01+0000",
+            "units": 30
+        }
+    },
+    {
+        "request": {
+            "params": {
+                "unit": "day",
+                "units": 30
+            },
+            "url": "https://api-ssl.bitly.com/v4/bitlinks/bit.ly/ZZZbMZY/countries"
+        },
+        "response": {
+            "facet": "countries",
+            "metrics": [
+                {
+                    "clicks": 1,
+                    "value": "US"
+                }
+            ],
+            "unit": "day",
+            "unit_reference": "2006-05-04T03:02:01+0000",
+            "units": 30
+        }
+    },
+    {
+        "request": {
+            "params": {
+                "unit": "day",
+                "units": 30
+            },
+            "url": "https://api-ssl.bitly.com/v4/bitlinks/bit.ly/ZZZ008g/countries"
+        },
+        "response": {
+            "facet": "countries",
+            "metrics": [],
+            "unit": "day",
+            "unit_reference": "2006-05-04T03:02:01+0000",
+            "units": 30
+        }
+    },
+    {
+        "request": {
+            "params": {
+                "unit": "day",
+                "units": 30
+            },
+            "url": "https://api-ssl.bitly.com/v4/bitlinks/bit.ly/ZZZ7uje/countries"
+        },
+        "response": {
+            "facet": "countries",
+            "metrics": [],
+            "unit": "day",
+            "unit_reference": "2006-05-04T03:02:01+0000",
+            "units": 30
+        }
+    },
+    {
+        "request": {
+            "params": {
+                "unit": "day",
+                "units": 30
+            },
+            "url": "https://api-ssl.bitly.com/v4/bitlinks/bit.ly/ZZZUJcu/countries"
+        },
+        "response": {
+            "facet": "countries",
+            "metrics": [],
+            "unit": "day",
+            "unit_reference": "2006-05-04T03:02:01+0000",
+            "units": 30
+        }
+    },
+    {
+        "request": {
+            "params": {
+                "unit": "day",
+                "units": 30
+            },
+            "url": "https://api-ssl.bitly.com/v4/bitlinks/bit.ly/ZZZ01fs/countries"
+        },
+        "response": {
+            "facet": "countries",
+            "metrics": [],
+            "unit": "day",
+            "unit_reference": "2006-05-04T03:02:01+0000",
+            "units": 30
+        }
+    },
+    {
+        "request": {
+            "params": {
+                "unit": "day",
+                "units": 30
+            },
+            "url": "https://api-ssl.bitly.com/v4/bitlinks/bit.ly/ZZZSsQl/countries"
+        },
+        "response": {
+            "facet": "countries",
+            "metrics": [],
+            "unit": "day",
+            "unit_reference": "2006-05-04T03:02:01+0000",
+            "units": 30
+        }
+    },
+    {
+        "request": {
+            "params": {
+                "unit": "day",
+                "units": 30
+            },
+            "url": "https://api-ssl.bitly.com/v4/bitlinks/bit.ly/ZZZPeSZ/countries"
+        },
+        "response": {
+            "facet": "countries",
+            "metrics": [],
+            "unit": "day",
+            "unit_reference": "2006-05-04T03:02:01+0000",
+            "units": 30
+        }
+    },
+    {
+        "request": {
+            "params": {
+                "unit": "day",
+                "units": 30
+            },
+            "url": "https://api-ssl.bitly.com/v4/bitlinks/bit.ly/ZZZBDN1/countries"
+        },
+        "response": {
+            "facet": "countries",
+            "metrics": [],
+            "unit": "day",
+            "unit_reference": "2006-05-04T03:02:01+0000",
+            "units": 30
+        }
+    },
+    {
+        "request": {
+            "params": {
+                "unit": "day",
+                "units": 30
+            },
+            "url": "https://api-ssl.bitly.com/v4/bitlinks/bit.ly/ZZZgUSZ/countries"
+        },
+        "response": {
+            "facet": "countries",
+            "metrics": [],
+            "unit": "day",
+            "unit_reference": "2006-05-04T03:02:01+0000",
+            "units": 30
+        }
+    },
+    {
+        "request": {
+            "params": {
+                "unit": "day",
+                "units": 30
+            },
+            "url": "https://api-ssl.bitly.com/v4/bitlinks/bit.ly/ZZZQSRo/countries"
+        },
+        "response": {
+            "facet": "countries",
+            "metrics": [],
+            "unit": "day",
+            "unit_reference": "2006-05-04T03:02:01+0000",
+            "units": 30
+        }
+    },
+    {
+        "request": {
+            "params": {
+                "unit": "day",
+                "units": 30
+            },
+            "url": "https://api-ssl.bitly.com/v4/bitlinks/bit.ly/ZZZXR2z/countries"
+        },
+        "response": {
+            "facet": "countries",
+            "metrics": [
+                {
+                    "clicks": 1,
+                    "value": "US"
+                }
+            ],
+            "unit": "day",
+            "unit_reference": "2006-05-04T03:02:01+0000",
+            "units": 30
+        }
+    },
+    {
+        "request": {
+            "params": {
+                "unit": "day",
+                "units": 30
+            },
+            "url": "https://api-ssl.bitly.com/v4/bitlinks/bit.ly/ZZZBL5P/countries"
+        },
+        "response": {
+            "facet": "countries",
+            "metrics": [
+                {
+                    "clicks": 1,
+                    "value": "US"
+                }
+            ],
+            "unit": "day",
+            "unit_reference": "2006-05-04T03:02:01+0000",
+            "units": 30
+        }
+    },
+    {
+        "request": {
+            "params": {
+                "unit": "day",
+                "units": 30
+            },
+            "url": "https://api-ssl.bitly.com/v4/bitlinks/bit.ly/ZZZDHqF/countries"
+        },
+        "response": {
+            "facet": "countries",
+            "metrics": [],
+            "unit": "day",
+            "unit_reference": "2006-05-04T03:02:01+0000",
+            "units": 30
+        }
+    },
+    {
+        "request": {
+            "params": {
+                "unit": "day",
+                "units": 30
+            },
+            "url": "https://api-ssl.bitly.com/v4/bitlinks/bit.ly/ZZZe12G/countries"
+        },
+        "response": {
+            "facet": "countries",
+            "metrics": [],
+            "unit": "day",
+            "unit_reference": "2006-05-04T03:02:01+0000",
+            "units": 30
+        }
+    },
+    {
+        "request": {
+            "params": {
+                "unit": "day",
+                "units": 30
+            },
+            "url": "https://api-ssl.bitly.com/v4/bitlinks/bit.ly/ZZZGsMU/countries"
+        },
+        "response": {
+            "facet": "countries",
+            "metrics": [],
+            "unit": "day",
+            "unit_reference": "2006-05-04T03:02:01+0000",
+            "units": 30
+        }
+    },
+    {
+        "request": {
+            "params": {
+                "unit": "day",
+                "units": 30
+            },
+            "url": "https://api-ssl.bitly.com/v4/bitlinks/bit.ly/ZZZBGo5/countries"
+        },
+        "response": {
+            "facet": "countries",
+            "metrics": [],
+            "unit": "day",
+            "unit_reference": "2006-05-04T03:02:01+0000",
+            "units": 30
+        }
+    },
+    {
+        "request": {
+            "params": {
+                "unit": "day",
+                "units": 30
+            },
+            "url": "https://api-ssl.bitly.com/v4/bitlinks/bit.ly/ZZZZPAF/countries"
+        },
+        "response": {
+            "facet": "countries",
+            "metrics": [],
+            "unit": "day",
+            "unit_reference": "2006-05-04T03:02:01+0000",
+            "units": 30
+        }
+    },
+    {
+        "request": {
+            "params": {
+                "unit": "day",
+                "units": 30
+            },
+            "url": "https://api-ssl.bitly.com/v4/bitlinks/bit.ly/ZZZOOuV/countries"
+        },
+        "response": {
+            "facet": "countries",
+            "metrics": [],
+            "unit": "day",
+            "unit_reference": "2006-05-04T03:02:01+0000",
+            "units": 30
+        }
+    },
+    {
+        "request": {
+            "params": {
+                "unit": "day",
+                "units": 30
+            },
+            "url": "https://api-ssl.bitly.com/v4/bitlinks/bit.ly/ZZZL9AB/countries"
+        },
+        "response": {
+            "facet": "countries",
+            "metrics": [
+                {
+                    "clicks": 1,
+                    "value": "US"
+                }
+            ],
+            "unit": "day",
+            "unit_reference": "2006-05-04T03:02:01+0000",
+            "units": 30
+        }
+    },
+    {
+        "request": {
+            "params": {
+                "unit": "day",
+                "units": 30
+            },
+            "url": "https://api-ssl.bitly.com/v4/bitlinks/bit.ly/ZZZOhMO/countries"
+        },
+        "response": {
+            "facet": "countries",
+            "metrics": [],
+            "unit": "day",
+            "unit_reference": "2006-05-04T03:02:01+0000",
+            "units": 30
+        }
+    },
+    {
+        "request": {
+            "params": {
+                "unit": "day",
+                "units": 30
+            },
+            "url": "https://api-ssl.bitly.com/v4/bitlinks/bit.ly/ZZZQl7E/countries"
+        },
+        "response": {
+            "facet": "countries",
+            "metrics": [],
+            "unit": "day",
+            "unit_reference": "2006-05-04T03:02:01+0000",
+            "units": 30
+        }
+    },
+    {
+        "request": {
+            "params": {
+                "unit": "day",
+                "units": 30
+            },
+            "url": "https://api-ssl.bitly.com/v4/bitlinks/bit.ly/ZZZVjmp/countries"
+        },
+        "response": {
+            "facet": "countries",
+            "metrics": [
+                {
+                    "clicks": 1,
+                    "value": "US"
+                }
+            ],
+            "unit": "day",
+            "unit_reference": "2006-05-04T03:02:01+0000",
+            "units": 30
+        }
+    },
+    {
+        "request": {
+            "params": {
+                "unit": "day",
+                "units": 30
+            },
+            "url": "https://api-ssl.bitly.com/v4/bitlinks/bit.ly/ZZZV2tt/countries"
+        },
+        "response": {
+            "facet": "countries",
+            "metrics": [],
+            "unit": "day",
+            "unit_reference": "2006-05-04T03:02:01+0000",
+            "units": 30
+        }
+    },
+    {
+        "request": {
+            "params": {
+                "unit": "day",
+                "units": 30
+            },
+            "url": "https://api-ssl.bitly.com/v4/bitlinks/bit.ly/ZZZ9l0J/countries"
+        },
+        "response": {
+            "facet": "countries",
+            "metrics": [],
+            "unit": "day",
+            "unit_reference": "2006-05-04T03:02:01+0000",
+            "units": 30
+        }
+    },
+    {
+        "request": {
+            "params": {
+                "unit": "day",
+                "units": 30
+            },
+            "url": "https://api-ssl.bitly.com/v4/bitlinks/bit.ly/ZZZDhhq/countries"
+        },
+        "response": {
+            "facet": "countries",
+            "metrics": [],
+            "unit": "day",
+            "unit_reference": "2006-05-04T03:02:01+0000",
+            "units": 30
+        }
+    },
+    {
+        "request": {
+            "params": {
+                "unit": "day",
+                "units": 30
+            },
+            "url": "https://api-ssl.bitly.com/v4/bitlinks/bit.ly/ZZZsEU4/countries"
+        },
+        "response": {
+            "facet": "countries",
+            "metrics": [],
+            "unit": "day",
+            "unit_reference": "2006-05-04T03:02:01+0000",
+            "units": 30
+        }
+    },
+    {
+        "request": {
+            "params": {
+                "unit": "day",
+                "units": 30
+            },
+            "url": "https://api-ssl.bitly.com/v4/bitlinks/bit.ly/ZZZ1mFi/countries"
+        },
+        "response": {
+            "facet": "countries",
+            "metrics": [
+                {
+                    "clicks": 1,
+                    "value": "US"
+                }
+            ],
+            "unit": "day",
+            "unit_reference": "2006-05-04T03:02:01+0000",
+            "units": 30
+        }
+    },
+    {
+        "request": {
+            "params": {
+                "unit": "day",
+                "units": 30
+            },
+            "url": "https://api-ssl.bitly.com/v4/bitlinks/bit.ly/ZZZtvyy/countries"
+        },
+        "response": {
+            "facet": "countries",
+            "metrics": [],
+            "unit": "day",
+            "unit_reference": "2006-05-04T03:02:01+0000",
+            "units": 30
+        }
+    },
+    {
+        "request": {
+            "params": {
+                "unit": "day",
+                "units": 30
+            },
+            "url": "https://api-ssl.bitly.com/v4/bitlinks/bit.ly/ZZZKpdX/countries"
+        },
+        "response": {
+            "facet": "countries",
+            "metrics": [],
+            "unit": "day",
+            "unit_reference": "2006-05-04T03:02:01+0000",
+            "units": 30
+        }
+    },
+    {
+        "request": {
+            "params": {
+                "unit": "day",
+                "units": 30
+            },
+            "url": "https://api-ssl.bitly.com/v4/bitlinks/bit.ly/ZZZ9UvO/countries"
+        },
+        "response": {
+            "facet": "countries",
+            "metrics": [],
+            "unit": "day",
+            "unit_reference": "2006-05-04T03:02:01+0000",
+            "units": 30
+        }
+    },
+    {
+        "request": {
+            "params": {
+                "unit": "day",
+                "units": 30
+            },
+            "url": "https://api-ssl.bitly.com/v4/bitlinks/bit.ly/ZZZa1cS/countries"
+        },
+        "response": {
+            "facet": "countries",
+            "metrics": [],
+            "unit": "day",
+            "unit_reference": "2006-05-04T03:02:01+0000",
+            "units": 30
+        }
+    },
+    {
+        "request": {
+            "params": {
+                "unit": "day",
+                "units": 30
+            },
+            "url": "https://api-ssl.bitly.com/v4/bitlinks/bit.ly/ZZZoEO0/countries"
+        },
+        "response": {
+            "facet": "countries",
+            "metrics": [
+                {
+                    "clicks": 1,
+                    "value": "US"
+                }
+            ],
+            "unit": "day",
+            "unit_reference": "2006-05-04T03:02:01+0000",
+            "units": 30
+        }
+    },
+    {
+        "request": {
+            "params": {
+                "unit": "day",
+                "units": 30
+            },
+            "url": "https://api-ssl.bitly.com/v4/bitlinks/bit.ly/ZZZ2qtw/countries"
+        },
+        "response": {
+            "facet": "countries",
+            "metrics": [],
+            "unit": "day",
+            "unit_reference": "2006-05-04T03:02:01+0000",
+            "units": 30
+        }
+    },
+    {
+        "request": {
+            "params": {
+                "unit": "day",
+                "units": 30
+            },
+            "url": "https://api-ssl.bitly.com/v4/bitlinks/bit.ly/ZZZ4WzF/countries"
+        },
+        "response": {
+            "facet": "countries",
+            "metrics": [],
+            "unit": "day",
+            "unit_reference": "2006-05-04T03:02:01+0000",
+            "units": 30
+        }
+    },
+    {
+        "request": {
+            "params": {
+                "unit": "day",
+                "units": 30
+            },
+            "url": "https://api-ssl.bitly.com/v4/bitlinks/bit.ly/ZZZAz2M/countries"
+        },
+        "response": {
+            "facet": "countries",
+            "metrics": [],
+            "unit": "day",
+            "unit_reference": "2006-05-04T03:02:01+0000",
+            "units": 30
+        }
+    },
+    {
+        "request": {
+            "params": {
+                "unit": "day",
+                "units": 30
+            },
+            "url": "https://api-ssl.bitly.com/v4/bitlinks/bit.ly/ZZZ60kV/countries"
+        },
+        "response": {
+            "facet": "countries",
+            "metrics": [],
+            "unit": "day",
+            "unit_reference": "2006-05-04T03:02:01+0000",
+            "units": 30
+        }
+    },
+    {
+        "request": {
+            "params": {
+                "unit": "day",
+                "units": 30
+            },
+            "url": "https://api-ssl.bitly.com/v4/bitlinks/bit.ly/ZZZCB3m/countries"
+        },
+        "response": {
+            "facet": "countries",
+            "metrics": [],
+            "unit": "day",
+            "unit_reference": "2006-05-04T03:02:01+0000",
+            "units": 30
+        }
+    },
+    {
+        "request": {
+            "params": {
+                "unit": "day",
+                "units": 30
+            },
+            "url": "https://api-ssl.bitly.com/v4/bitlinks/bit.ly/ZZZDO32/countries"
+        },
+        "response": {
+            "facet": "countries",
+            "metrics": [],
+            "unit": "day",
+            "unit_reference": "2006-05-04T03:02:01+0000",
+            "units": 30
+        }
+    },
+    {
+        "request": {
+            "params": {
+                "unit": "day",
+                "units": 30
+            },
+            "url": "https://api-ssl.bitly.com/v4/bitlinks/bit.ly/ZZZ46mY/countries"
+        },
+        "response": {
+            "facet": "countries",
+            "metrics": [],
+            "unit": "day",
+            "unit_reference": "2006-05-04T03:02:01+0000",
+            "units": 30
+        }
+    },
+    {
+        "request": {
+            "params": {
+                "unit": "day",
+                "units": 30
+            },
+            "url": "https://api-ssl.bitly.com/v4/bitlinks/bit.ly/ZZZzixH/countries"
+        },
+        "response": {
+            "facet": "countries",
+            "metrics": [],
+            "unit": "day",
+            "unit_reference": "2006-05-04T03:02:01+0000",
+            "units": 30
+        }
+    },
+    {
+        "request": {
+            "params": {
+                "unit": "day",
+                "units": 30
+            },
+            "url": "https://api-ssl.bitly.com/v4/bitlinks/bit.ly/ZZZNsEn/countries"
+        },
+        "response": {
+            "facet": "countries",
+            "metrics": [],
+            "unit": "day",
+            "unit_reference": "2006-05-04T03:02:01+0000",
+            "units": 30
+        }
+    },
+    {
+        "request": {
+            "params": {
+                "unit": "day",
+                "units": 30
+            },
+            "url": "https://api-ssl.bitly.com/v4/bitlinks/bit.ly/ZZZ5MKB/countries"
+        },
+        "response": {
+            "facet": "countries",
+            "metrics": [],
+            "unit": "day",
+            "unit_reference": "2006-05-04T03:02:01+0000",
+            "units": 30
+        }
+    },
+    {
+        "request": {
+            "params": {
+                "unit": "day",
+                "units": 30
+            },
+            "url": "https://api-ssl.bitly.com/v4/bitlinks/bit.ly/ZZZdanm/countries"
+        },
+        "response": {
+            "facet": "countries",
+            "metrics": [],
+            "unit": "day",
+            "unit_reference": "2006-05-04T03:02:01+0000",
+            "units": 30
+        }
+    },
+    {
+        "request": {
+            "params": {
+                "unit": "day",
+                "units": 30
+            },
+            "url": "https://api-ssl.bitly.com/v4/bitlinks/bit.ly/ZZZU1e7/countries"
+        },
+        "response": {
+            "facet": "countries",
+            "metrics": [],
+            "unit": "day",
+            "unit_reference": "2006-05-04T03:02:01+0000",
+            "units": 30
+        }
+    },
+    {
+        "request": {
+            "params": {
+                "unit": "day",
+                "units": 30
+            },
+            "url": "https://api-ssl.bitly.com/v4/bitlinks/bit.ly/ZZZ0eIB/countries"
+        },
+        "response": {
+            "facet": "countries",
+            "metrics": [],
+            "unit": "day",
+            "unit_reference": "2006-05-04T03:02:01+0000",
+            "units": 30
+        }
+    },
+    {
+        "request": {
+            "params": {
+                "unit": "day",
+                "units": 30
+            },
+            "url": "https://api-ssl.bitly.com/v4/bitlinks/bit.ly/ZZZVlia/countries"
+        },
+        "response": {
+            "facet": "countries",
+            "metrics": [
+                {
+                    "clicks": 1,
+                    "value": "US"
+                }
+            ],
+            "unit": "day",
+            "unit_reference": "2006-05-04T03:02:01+0000",
+            "units": 30
+        }
+    },
+    {
+        "request": {
+            "params": {
+                "unit": "day",
+                "units": 30
+            },
+            "url": "https://api-ssl.bitly.com/v4/bitlinks/bit.ly/ZZZTVDh/countries"
+        },
+        "response": {
+            "facet": "countries",
+            "metrics": [
+                {
+                    "clicks": 1,
+                    "value": "US"
+                }
+            ],
+            "unit": "day",
+            "unit_reference": "2006-05-04T03:02:01+0000",
+            "units": 30
+        }
+    },
+    {
+        "request": {
+            "params": {
+                "unit": "day",
+                "units": 30
+            },
+            "url": "https://api-ssl.bitly.com/v4/bitlinks/bit.ly/ZZZy50k/countries"
+        },
+        "response": {
+            "facet": "countries",
+            "metrics": [
+                {
+                    "clicks": 1,
+                    "value": "US"
+                }
+            ],
+            "unit": "day",
+            "unit_reference": "2006-05-04T03:02:01+0000",
+            "units": 30
+        }
+    },
+    {
+        "request": {
+            "params": {
+                "unit": "day",
+                "units": 30
+            },
+            "url": "https://api-ssl.bitly.com/v4/bitlinks/bit.ly/ZZZ9MyS/countries"
+        },
+        "response": {
+            "facet": "countries",
+            "metrics": [
+                {
+                    "clicks": 1,
+                    "value": "US"
+                }
+            ],
+            "unit": "day",
+            "unit_reference": "2006-05-04T03:02:01+0000",
+            "units": 30
+        }
+    },
+    {
+        "request": {
+            "params": {
+                "unit": "day",
+                "units": 30
+            },
+            "url": "https://api-ssl.bitly.com/v4/bitlinks/bit.ly/ZZZFUGQ/countries"
+        },
+        "response": {
+            "facet": "countries",
+            "metrics": [
+                {
+                    "clicks": 1,
+                    "value": "US"
+                }
+            ],
+            "unit": "day",
+            "unit_reference": "2006-05-04T03:02:01+0000",
+            "units": 30
+        }
+    },
+    {
+        "request": {
+            "params": {
+                "unit": "day",
+                "units": 30
+            },
+            "url": "https://api-ssl.bitly.com/v4/bitlinks/bit.ly/ZZZGiEV/countries"
+        },
+        "response": {
+            "facet": "countries",
+            "metrics": [
+                {
+                    "clicks": 1,
+                    "value": "US"
+                }
+            ],
+            "unit": "day",
+            "unit_reference": "2006-05-04T03:02:01+0000",
+            "units": 30
+        }
+    },
+    {
+        "request": {
+            "params": {
+                "unit": "day",
+                "units": 30
+            },
+            "url": "https://api-ssl.bitly.com/v4/bitlinks/bit.ly/ZZZsKE5/countries"
+        },
+        "response": {
+            "facet": "countries",
+            "metrics": [
+                {
+                    "clicks": 7,
+                    "value": "US"
+                },
+                {
+                    "clicks": 1,
+                    "value": "SG"
+                },
+                {
+                    "clicks": 1,
+                    "value": "NL"
+                },
+                {
+                    "clicks": 1,
+                    "value": "JP"
+                },
+                {
+                    "clicks": 1,
+                    "value": "GB"
+                },
+                {
+                    "clicks": 1,
+                    "value": "FR"
+                },
+                {
+                    "clicks": 1,
+                    "value": "DE"
+                },
+                {
+                    "clicks": 1,
+                    "value": "AU"
+                }
+            ],
+            "unit": "day",
+            "unit_reference": "2006-05-04T03:02:01+0000",
+            "units": 30
+        }
+    },
+    {
+        "request": {
+            "params": {
+                "unit": "day",
+                "units": 30
+            },
+            "url": "https://api-ssl.bitly.com/v4/bitlinks/bit.ly/ZZZkwri/countries"
+        },
+        "response": {
+            "facet": "countries",
+            "metrics": [
+                {
+                    "clicks": 3,
+                    "value": "US"
+                },
+                {
+                    "clicks": 1,
+                    "value": "FR"
+                }
+            ],
+            "unit": "day",
+            "unit_reference": "2006-05-04T03:02:01+0000",
+            "units": 30
+        }
+    }
+]
