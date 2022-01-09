@@ -20,6 +20,7 @@ def get_avg_daily_clicks_by_country():
     avg_daily_clicks_by_country = crawler.avg_daily_clicks_by_country()
     return jsonify(avg_daily_clicks_by_country)
 
+
 @app.route("/viz/ClicksByLocation")
 def clicks_by_location():
     countries = [{"alpha_2": country.alpha_2, "alpha_3": country.alpha_3} for country in pycountry.countries]
@@ -38,6 +39,7 @@ def clicks_by_location():
         , labels={"clicks":"Avg. Daily Clicks", "country": "Location"}
     )
     return fig.to_html()
+
 
 @app.errorhandler(404)
 def page_not_found(error):
