@@ -28,11 +28,6 @@ class MockCrawler(Crawler):
 class TestCrawler(unittest.TestCase):
     def test_avg_daily_clicks_by_country(self):
         crawler = MockCrawler()
-
         result = crawler.avg_daily_clicks_by_country()
-
         self.assertEqual(result, expected_daily_clicks_by_country)
 
-
-if __name__ == '__main__':
-    unittest.main()

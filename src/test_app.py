@@ -4,41 +4,46 @@ from multiprocessing import Process
 from src.app import app
 from requests import Session
 
+HOST = "127.0.0.1"
+PORT = 9001
 
 class TestApp(unittest.TestCase):
-    def setUp(self):
-        self.host = "http://127.0.0.1:5000/"
-        os.environ["FLASK_ENV"] = "testing"
-        self.server = Process(target=app.run)
-        self.server.start()
-        self.server.join(2)
-        self.session = Session()
 
-    def test_server_returns_success(self):
-        status_code = self.session.get(url=f"{self.host}").status_code
-        self.assertEqual(status_code, 200)
-
-    def test_avg_daily_clicks_by_country_returns_success(self):
-        status_code = self.session.get(url=f"{self.host}api/v1/avgDailyClicksByCountry").status_code
-        self.assertEqual(status_code, 200)
-
-    def test_viz_clicks_by_location_returns_success(self):
-        status_code = self.session.get(url=f"{self.host}viz/ClicksByLocation").status_code
-        self.assertEqual(status_code, 200)
-
-    def test_server_page_not_found_error(self):
-        expected_content = b"This page does not exist"
-        nonexistent_url = f"{self.host}pepper-night-census-polar-hero-chalk"
-        response = self.session.get(url=nonexistent_url)
-        status_code = response.status_code
-        content = response.content
-        self.assertEqual(status_code, 404)
-        self.assertEqual(content, expected_content)
-
+    @classmethod
+    def setUpClass(cls):
+        cls.server = Process(target=app.run, kwargs=dict(port=PORT))
+        cls.server.start()
+    
+    @classmethod
+    def tearDownClass(cls):
+        cls.server.terminate()
+    
     def test_server_bitly_api_token_set(self):
         bitly_api_token = os.getenv("BITLY_API_TOKEN")
         self.assertNotEqual(bitly_api_token, "")
+        
+    def test_server_returns_success(self):
+        url = f"http://{HOST}:{PORT}/"
+        with Session() as session:
+            response = session.get(url=url)
+        self.assertEqual(response.status_code, 200)
 
-    def tearDown(self):
-        self.session.close()
-        self.server.kill()
+    def test_avg_daily_clicks_by_country_returns_success(self):
+        url = f"http://{HOST}:{PORT}/api/v1/avgDailyClicksByCountry"
+        with Session() as session:
+            response = session.get(url=url)
+        self.assertEqual(response.status_code, 200)
+
+    def test_viz_clicks_by_location_returns_success(self):
+        url = f"http://{HOST}:{PORT}/viz/ClicksByLocation"
+        with Session() as session:
+            response = session.get(url=url)
+        self.assertEqual(response.status_code, 200)
+
+    def test_server_page_not_found_error(self):
+        nonexistent_url = f"http://{HOST}:{PORT}/pepper-night-census-polar-hero-chalk"
+        expected_content = b"This page does not exist"
+        with Session() as session:
+            response = session.get(url=nonexistent_url)
+        self.assertEqual(response.status_code, 404)
+        self.assertEqual(response.content, expected_content)

@@ -1,14 +1,14 @@
-[![.github/workflows/python-test.yml](https://github.com/pbierkortte/Example-Bitly-Webapp/actions/workflows/python-test.yml/badge.svg)](https://github.com/pbierkortte/Example-Bitly-Webapp/actions/workflows/python-test.yml)
+[![.github/workflows/python-test.yml](https://github.com/pbierkortte/Data-Driven-Web-App/actions/workflows/python-test.yml/badge.svg)](https://github.com/pbierkortte/Data-Driven-Web-App/actions/workflows/python-test.yml)
 <a href="https://trackgit.com">
 <img src="https://us-central1-trackgit-analytics.cloudfunctions.net/token/ping/ky4bzh33s7b3glzgmnky" alt="trackgit-views" />
 </a>
 
 
-# Example <span style="color:#ff6116">Bitly</span> Webapp
+# Data-driven Web App
 
 
 ## Problem
-* Create a web app that consumes Bitly's API and present the results in an easy-to-understand way[^1]
+* Create a web app that consumes Bitly's API and present the results in an easy-to-understand way
 
 ## Solution
 ### API
@@ -73,7 +73,7 @@ python3 --version
   *  Graphing library
 * pycountry
   * Convert ISO country codes 
-* others[^2]
+* others[^1]
 
 
 ## Setup
@@ -81,17 +81,17 @@ Run the following commands from the terminal
 
 ### Create a virtual environment 
 ```bash
-python3 -m venv venv
+python3 -m venv .venv
 ```
 
 ### Activate the virtual environment
 ```bash
-source venv/bin/activate
+source .venv/bin/activate
 ```
 
 ### Install required packages
 ```bash
-pip install -r requirements.txt
+pip install --require-virtualenv -r requirements.txt
 ```
 
 ### Set environment variable
@@ -132,7 +132,5 @@ python3 refresh_test_data.py
 ```
 
 
-[^1]: Extends this [Bitly API interview coding challenge](https://git.io/JSba4). Archive link https://archive.is/xl5S7. Backup fork https://git.io/JSbuY
-
-[^2]: The full list can be found in the [requirements file](requirements.txt)
+[^1]: The full list can be found in the [requirements file](requirements.txt)
 

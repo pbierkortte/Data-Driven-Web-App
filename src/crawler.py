@@ -1,6 +1,7 @@
 import os
-from requests import Session, request
+from requests import Session
 from requests.structures import CaseInsensitiveDict
+from requests.adapters import HTTPAdapter, Retry
 import pandas as pd
 
 
@@ -12,21 +13,27 @@ class BitlyApiTokenNotSetError(Exception):
 
 class Crawler:
     def __init__(self):
-        self.session = Session()
         try:
-            bitly_api_token = os.environ["BITLY_API_TOKEN"]
+            self._bitly_api_token = os.environ["BITLY_API_TOKEN"]
         except KeyError as e:
             raise BitlyApiTokenNotSetError() from e
-        self.headers = CaseInsensitiveDict()
-        self.headers["Accept"] = "application/json"
-        self.headers["Authorization"] = f"Bearer {bitly_api_token}"
-        self.session.headers = self.headers
-
-    def __del__(self):
-        self.session.close()
-
+            
     def get_data(self, url, params: dict) -> dict:
-        response = self.session.get(url=url, params=params).json()
+        status_force_list=[429, 500, 502, 503, 504]
+        retry = Retry(
+                    total=3,
+                    backoff_factor=30,
+                    status_forcelist=status_force_list,
+                )
+        adapter = HTTPAdapter(max_retries=retry)
+        with Session() as session:
+            for prefix in "http://", "https://":
+                session.mount(prefix, adapter)
+            session.headers = CaseInsensitiveDict()
+            session.headers["Accept"] = "application/json"
+            if url.startswith("https://api-ssl.bitly.com/"):
+                session.headers["Authorization"] = f"Bearer {self._bitly_api_token}"
+            response = session.get(url=url, params=params).json()
         return response
 
     def get_user_default_group(self) -> str:
