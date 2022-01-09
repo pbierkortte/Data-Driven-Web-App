@@ -1,10 +1,10 @@
-[![.github/workflows/python-test.yml](https://github.com/pbierkortte/Example-Data-Driven-Webapp/actions/workflows/python-test.yml/badge.svg)](https://github.com/pbierkortte/Example-Data-Driven-Webapp/actions/workflows/python-test.yml)
+[![.github/workflows/python-test.yml](https://github.com/pbierkortte/Data-Driven-Web-App/actions/workflows/python-test.yml/badge.svg)](https://github.com/pbierkortte/Data-Driven-Web-App/actions/workflows/python-test.yml)
 <a href="https://trackgit.com">
 <img src="https://us-central1-trackgit-analytics.cloudfunctions.net/token/ping/ky4bzh33s7b3glzgmnky" alt="trackgit-views" />
 </a>
 
 
-# Example Data-driven Webapp
+# Data-driven Web App
 
 
 ## Problem
