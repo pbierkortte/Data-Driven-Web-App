@@ -8,7 +8,7 @@
 
 
 ## Problem
-* Create a web app that consumes Bitly's API and present the results in an easy-to-understand way[^1]
+* Create a web app that consumes Bitly's API and present the results in an easy-to-understand way
 
 ## Solution
 ### API
@@ -73,7 +73,7 @@ python3 --version
   *  Graphing library
 * pycountry
   * Convert ISO country codes 
-* others[^2]
+* others[^1]
 
 
 ## Setup
@@ -132,7 +132,5 @@ python3 refresh_test_data.py
 ```
 
 
-[^1]: Extends this [Bitly API interview coding challenge](https://git.io/JSba4). Archive link https://archive.is/xl5S7. Backup fork https://git.io/JSbuY
-
-[^2]: The full list can be found in the [requirements file](requirements.txt)
+[^1]: The full list can be found in the [requirements file](requirements.txt)
 
