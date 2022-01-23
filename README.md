@@ -91,7 +91,7 @@ source venv/bin/activate
 
 ### Install required packages
 ```bash
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 ### Set environment variable
