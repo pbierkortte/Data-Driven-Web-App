@@ -19,7 +19,7 @@ jobs:
       uses: actions/cache@v3
       with:
         path: ~/.cache/pip
-        key: pip-${{ matrix.os }}-${{ hashFiles('**/lockfiles') }}-${{ hashFiles('**/requirements.txt') }}
+        key: pip-${{ matrix.os }}-${{ hashFiles('**/lockfiles','**/requirements.txt') }}
     - name: Install dependencies
       run: |
         pip install -r requirements.txt
