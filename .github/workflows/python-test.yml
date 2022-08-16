@@ -14,17 +14,27 @@ jobs:
     runs-on: ${{ matrix.os }}
     timeout-minutes: 5
     steps:
-    - uses: actions/checkout@v3
+    - name: Checkout
+      uses: actions/checkout@v3
+    
     - name: Caching dependencies to speed up workflows
       uses: actions/cache@v3
       with:
         path: ~/.cache/pip
         key: pip-${{ matrix.os }}-${{ hashFiles('**/lockfiles','**/requirements.txt') }}
+
     - name: Install dependencies
       run: |
         pip install -r requirements.txt
+    
+    - name: Test that source will compile
+      working-directory: src/
+      run: |  
+        python -m compileall .    
+    
     - name: Resolve test url(s)
       run: xargs -L1 -a test_data/urls.txt curl -so /dev/null -w '%{url} %{http_code} %{redirect_url}\n' | column -t -s' ' | sort
+    
     - name: Test
       env:
         BITLY_API_TOKEN: ${{secrets.BITLY_API_TOKEN}}
