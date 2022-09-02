@@ -27,13 +27,13 @@ jobs:
       run: |
         pip install -r requirements.txt
     
+    - name: Test URL(s)
+      run: xargs -L1 -a test_data/urls.txt curl -so /dev/null -w '%{url} %{http_code} %{redirect_url}\n' | column -t -s' ' | sort
+    
     - name: Test that source will compile
       working-directory: src/
       run: |  
         python -m compileall .    
-    
-    - name: Test URL(s)
-      run: xargs -L1 -a test_data/urls.txt curl -so /dev/null -w '%{url} %{http_code} %{redirect_url}\n' | column -t -s' ' | sort
     
     - name: Test
       env:
