@@ -28,15 +28,20 @@ jobs:
         pip install -r requirements.txt
     
     - name: Test URL(s)
-      run: xargs -L1 -a test_data/urls.txt curl -so /dev/null -w '%{url} %{http_code} %{redirect_url}\n' | column -t -s' ' | sort
+      run: |
+        xargs -L1 -a test_data/urls.txt curl -so /dev/null -w '%{url} %{http_code} %{redirect_url}\n' | column -t -s' ' | sort
     
-    - name: Test that source will compile
+    - name: Test if the source will compile, a sanity check
       working-directory: src/
       run: |  
-        python -m compileall .    
+        python -m compileall .
+        
+    - name: Pause to allow Bitly's API to update, and avoid a race condition
+      run: |
+        sleep 5
     
-    - name: Test
+    - name: Test source code
       env:
         BITLY_API_TOKEN: ${{secrets.BITLY_API_TOKEN}}
       run: |
-          python3 -m unittest        
+          python3 -m unittest
