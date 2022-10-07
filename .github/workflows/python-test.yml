@@ -33,7 +33,7 @@ jobs:
     
     - name: Test if the source will compile, a sanity check
       working-directory: src/
-      run: |  
+      run: |
         python -m compileall .
         
     - name: Pause to allow Bitly's API to update, and avoid a race condition
