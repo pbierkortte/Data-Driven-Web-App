@@ -17,6 +17,11 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v3
     
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: 3.8.1
+
     - name: Caching dependencies to speed up workflows
       uses: actions/cache@v3
       with:
