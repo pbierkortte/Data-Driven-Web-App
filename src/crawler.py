@@ -26,7 +26,7 @@ class Crawler:
             )
         adapter = HTTPAdapter(max_retries=retry)
 
-#         global session 
+        #global session 
         self.session = Session()
         for prefix in "http://", "https://":
             self.session.mount(prefix, adapter)
