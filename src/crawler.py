@@ -19,11 +19,10 @@ class Crawler:
             raise BitlyApiTokenNotSetError() from e
             
     def get_data(self, url, params: dict) -> dict:
-        status_force_list=[429, 500, 502, 503, 504]
         retry = Retry(
-                    total=3,
-                    backoff_factor=30,
-                    status_forcelist=status_force_list,
+                    total=10,
+                    backoff_factor=0.5,
+                    status_forcelist=[429, 500, 502, 503, 504],
                 )
         adapter = HTTPAdapter(max_retries=retry)
         with Session() as session:
