@@ -26,19 +26,19 @@ class Crawler:
             )
         adapter = HTTPAdapter(max_retries=retry)
 
-        global session 
-        session = Session()
+#         global session 
+        self.session = Session()
         for prefix in "http://", "https://":
-            session.mount(prefix, adapter)
-        session.headers = CaseInsensitiveDict()
-        session.headers["Accept"] = "application/json"
-        session.headers["Content-Type"] = "application/json"
+            self.session.mount(prefix, adapter)
+        self.session.headers = CaseInsensitiveDict()
+        self.session.headers["Accept"] = "application/json"
+        self.session.headers["Content-Type"] = "application/json"
         
     def get_data(self, url, params: dict) -> dict:
         if url.startswith("https://api-ssl.bitly.com/"):
-            session.headers["Authorization"] = f"Bearer {self._bitly_api_token}"
-        response = session.get(url=url, params=params)
-        del session.headers["Authorization"]
+            self.session.headers["Authorization"] = f"Bearer {self._bitly_api_token}"
+        response = self.session.get(url=url, params=params)
+        del self.session.headers["Authorization"]
         return response.json()
 
     def get_user_default_group(self) -> str:
